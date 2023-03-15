@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial
+#define NISE_VERSION_MAJOR @NISE_VERSION_MAJOR@
+#define NISE_VERSION_MINOR @NISE_VERSION_MINOR@
+#cmakedefine USE_MYMATH
