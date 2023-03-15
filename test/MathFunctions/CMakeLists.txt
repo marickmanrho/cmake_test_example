@@ -1,6 +1,8 @@
+# Build test function
 add_executable(test_square_root test_square_root.cpp)
 target_link_libraries(test_square_root PRIVATE MathFunctions)
 
+# Add tests for test function
 enable_testing()
 add_test(
   NAME test_square_root

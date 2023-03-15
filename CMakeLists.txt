@@ -14,7 +14,6 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE RelWithDebInfo)
 endif()
 
-
 # Project definitions
 project(NISE VERSION 1.0)
 add_subdirectory("src")
